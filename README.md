@@ -3,7 +3,7 @@
   
   Currently I focus on adverisarial samples and the explainations of the limitations on neural network.
   
-  One sentence conclusion: Neural network is a nonlinear mapping of Y=f(X), where X can be anything(Images,Voice,Words,etc) described by data with Y as corresponding labels and the function f can be learned autonomously with back-propagation,during testing a sample X'(same/similar to X) can be correctly mapped to the label Y.
+  One sentence conclusion: Neural network is a nonlinear mapping of Y=f(X), where X can be anything(Images,Voice,Words,etc) described by data with Y as corresponding labels and the function f can be learned autonomously with back-propagation,during testing a sample X'(same/similar to X) will be mapped to the label Y using learned function f.
   
   Limitations:  
   1.BP need very large training samples if the network is very big or the function f is too complex.  
