@@ -6,7 +6,7 @@
   
  
   Limitations:  
-  • Very data hungry (eg. often millions of examples)  
+  • Very data hungry (The Curse of dimensionality) Check link:http://www.visiondummy.com/2014/04/curse-dimensionality-affect-classification/   
   • Computationally intensive to train and deploy (tractably requires GPUs)  
   • Easily fooled by adversarial examples  
   • Poor at representing uncertainty (how do you know what the model knows?)  
